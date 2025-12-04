@@ -18,22 +18,36 @@
     }
 
     .contact h2 {
-      background-color: #caf7ff;
-      color: #ddd3e3;
-      border: 3px dotted #a87ccf;
-      padding: 15px;
+      background-color: #69e6ff;
+      color: #ffffff;
+      padding: 10px;
       border-radius: 10px;
       display: inline-block;
     }
       form {
-      max-width: 500px;
+      max-width: 400px;
       margin: 50px auto;
-      background-color: #ddd3e3;
+      background-color: #ffffff;
       padding: 30px;
       border-radius: 20px;
-      border: 3px dotted #a87ccf;
       text-align: left;
-      color: #654f78;
+      color: #000000;
+    }
+    button {
+      background-color: #69e6ff;
+      color: #ffffff;
+      padding: 10px 15px;
+      border-radius: 5px;
+      width: 100%;
+      
+    }
+    input, textarea, select {
+      width: 100%;
+      padding: 8px;
+      margin: 8px 0;
+      border-radius: 5px;
+      font-size: 0.95em;
+
     }
     
     </style>
@@ -119,53 +133,20 @@
     </div>
 
     <section id="contact" class="contact">
-    <h2>♥︎!Contact Me!♥︎</h2>
+    <h2>Contact Us</h2>
     <form>
-      <label>♥︎!Your Name!♥︎:</label>
-      <input type="text" placeholder="Type Here!♥︎">
+      <label>Your Name:</label>
+      <input type="text" placeholder="Type here!">
 
-      <label>♥︎!Your Email!♥︎:</label>
-      <input type="email" placeholder="Type here!♥︎">
+      <label>Your Email:</label>
+      <input type="email" placeholder="Type here!">
+      
+      <br>
 
-      <label>♥︎!Upload Your Image!♥︎:</label>
-      <div class="file-upload">
-        <label for="image" class="upload-btn">♥︎Choose File♥︎</label>
-        <span id="file-name">No file chosen</span>
-        <input type="file" id="image" accept="image/*" style="display: none;">
-      </div>
-
-      <label>♥︎How did you find me?♥︎</label><br><br>
-      <label for="facebook">!Facebook!</label>
-     	<input type="radio" id="facebook" name="facebook" value="facebook">
-     	<label for="google">!Google!</label>
-     	<input type="radio" id="google" name="google" value="google">
-     	<label for="friends">!Friends!</label>
-     	<input type="radio" id="friends" name="friends" value="friends">
-      <br><br>
-
-      <label>♥︎Services Interested In:</label><br><br>
-      <label for="web design">♥︎!Web Design!♥︎</label>
-     	<input type="checkbox" id="web design" name="web design" value="web design">
-     	<label for="graphic design">♥︎!Graphic Design!♥︎</label>
-     	<input type="checkbox" id="graphic design" name="graphic design" value="graphic design">
-     	<label for="robotics">♥︎!Robotics!♥︎</label>
-     	<input type="checkbox" id="robotics" name="robotics" value="robotics">
-      <br><br>
-
-      <label>♥︎Rate my Portfolio:</label>
-      <select>
-        <option>♥︎Select Rating♥︎</option>
-        <option>♥︎</option>
-        <option>♥︎♥︎</option>
-        <option>♥︎♥︎♥︎</option>
-        <option>♥︎♥︎♥︎♥︎</option>
-        <option>♥︎♥︎♥︎♥︎♥︎</option>
-      </select>
-
-      <label>♥︎Any Feedback?♥︎</label>
+      <label>Subject</label>
       <textarea rows="3" placeholder="Type here!"></textarea>
 
-      <button type="submit">♥︎!Submit!♥︎</button>
+      <button type="submit">Submit</button>
     </form>
   </section>
 
